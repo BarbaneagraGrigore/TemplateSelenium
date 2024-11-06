@@ -4,8 +4,8 @@
 This project is designed for Selenium automation testing.
 
 ### Prerequisites
-- Java
-- Maven
+- Java 23.0.1
+- Maven 3.8.1
 - One of the browsers installed: 
   - ChromeDriver 130.0.6723.92 (64-bit)
   - EdgeDriver 130.0.2849.68 (64-bit)
@@ -20,5 +20,4 @@ This project is designed for Selenium automation testing.
    ```bash
    mvn surefire-report:report
    
-3. 
-4. See report target/reports/surefire.html
+3. See report target/reports/surefire.html
