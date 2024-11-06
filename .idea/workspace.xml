@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e895080-d1c7-4b54-a912-3407a16386bb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2nW43vvRRSOGrUENNdYPcuwnA0M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.ExtentDemo.executor": "Run",
+    "JUnit.FirstClass.executor": "Run",
+    "JUnit.FirstClass.startBrowser.executor": "Debug",
+    "JUnit.SampleTest.executor": "Run",
+    "JUnit.SubmitPracticeFormNegativeTest.executor": "Run",
+    "JUnit.SubmitPracticeFormNegativeTest.testSubmitEmptyForm.executor": "Run",
+    "JUnit.SubmitPracticeFormPositiveTest.executor": "Run",
+    "JUnit.SubmitPracticeFormPositiveTest.startBrowser.executor": "Run",
+    "JUnit.SubmitPracticeFormPositiveTest.testSubmitFormWithAllFields.executor": "Run",
+    "JUnit.testSuites in TemplateSelenium.executor": "Run",
+    "Maven.TemplateSelenium [clean,install].executor": "Run",
+    "Maven.TemplateSelenium [clean,test...].executor": "Run",
+    "Maven.TemplateSelenium [clean,test].executor": "Run",
+    "Maven.TemplateSelenium [clean].executor": "Run",
+    "Maven.TemplateSelenium [install].executor": "Run",
+    "Maven.TemplateSelenium [package].executor": "Run",
+    "Maven.TemplateSelenium [site].executor": "Run",
+    "Maven.TemplateSelenium [surefire-report:report].executor": "Run",
+    "Maven.TemplateSelenium [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.SubmitPracticeFormPositive2Test.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gbarbaneagra/IdeaProjects/TemplateSelenium/build.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gbarbaneagra\IdeaProjects\TemplateSelenium\src\test\resources\testData" />
+      <recent name="C:\Users\gbarbaneagra\IdeaProjects\TemplateSelenium\src\test\resources\drivers" />
+      <recent name="C:\Users\gbarbaneagra\IdeaProjects\TemplateSelenium\src\test\resources" />
+      <recent name="C:\Users\gbarbaneagra\IdeaProjects\TemplateSelenium" />
+      <recent name="C:\Users\gbarbaneagra\IdeaProjects\TemplateSelenium\lib\ant" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testSuites" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ant test" />
+      <command value="mvn clean install" />
+      <command value="mvn clean test" />
+      <command value="mvn clean test -DsuiteXmlFile=testng.xml" />
+      <command value="mvn test" />
+      <command value="mvn site" />
+      <command value="mvn surefire-report:report" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="TemplateSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemplateSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuites.negatives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuites.negatives" />
+      <option name="MAIN_CLASS_NAME" value="testSuites.negatives.PracticeFormTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemplateSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuites.negatives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuites.positives" />
+      <option name="MAIN_CLASS_NAME" value="testSuites.positives.PracticeFormTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeFormTest.testSubmitEmptyForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemplateSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuites.negatives.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuites.negatives" />
+      <option name="MAIN_CLASS_NAME" value="testSuites.negatives.PracticeFormTest" />
+      <option name="METHOD_NAME" value="testSubmitEmptyForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSuites in TemplateSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemplateSelenium" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/testSuites" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PracticeFormTest" />
+        <item itemvalue="JUnit.PracticeFormTest" />
+        <item itemvalue="JUnit.testSuites in TemplateSelenium" />
+        <item itemvalue="JUnit.PracticeFormTest.testSubmitEmptyForm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e895080-d1c7-4b54-a912-3407a16386bb" name="Changes" comment="" />
+      <created>1729075304480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729075304480</updated>
+      <workItem from="1729075305692" duration="2857000" />
+      <workItem from="1729254055311" duration="4460000" />
+      <workItem from="1729358423631" duration="4455000" />
+      <workItem from="1729678193433" duration="14000" />
+      <workItem from="1729757590498" duration="9853000" />
+      <workItem from="1729836131462" duration="9052000" />
+      <workItem from="1729846670717" duration="2600000" />
+      <workItem from="1729856409013" duration="1502000" />
+      <workItem from="1729858063031" duration="7628000" />
+      <workItem from="1729923300972" duration="978000" />
+      <workItem from="1729926064333" duration="290000" />
+      <workItem from="1730113411645" duration="365000" />
+      <workItem from="1730119820753" duration="80000" />
+      <workItem from="1730558223405" duration="1499000" />
+      <workItem from="1730725248483" duration="7615000" />
+      <workItem from="1730786314376" duration="788000" />
+      <workItem from="1730795428424" duration="9000" />
+      <workItem from="1730808674613" duration="2715000" />
+      <workItem from="1730880504373" duration="4437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+  </component>
+</project>
