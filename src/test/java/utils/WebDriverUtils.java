@@ -12,29 +12,25 @@ import static utils.PropertiesReaderUtils.readProperty;
 
 public class WebDriverUtils {
 
-    private static WebDriver webDriver;
+    public WebDriver webDriver;
     private static final ChromeOptions CHROME_OPTIONS = new ChromeOptions();
     private static final EdgeOptions EDGE_OPTIONS = new EdgeOptions();
     private static final FirefoxOptions FIREFOX_OPTIONS = new FirefoxOptions();
 
     protected WebDriverUtils() {
-        if (webDriver == null) webDriver = initializeWebDriver(
+        webDriver = initializeWebDriver(
                 readProperty("browser"),
                 readProperty("headless"));
     }
 
-    protected static WebDriver getWebDriver() {
-        return webDriver;
-    }
-
-    protected static void quitDriver() {
+    protected void quitDriver() {
         if (webDriver != null) {
             webDriver.quit();
             webDriver = null;
         }
     }
 
-    private static WebDriver initializeWebDriver(String browserName, String headless) {
+    private WebDriver initializeWebDriver(String browserName, String headless) {
         switch (browserName.toLowerCase()) {
             case "edge":
                 System.setProperty("webdriver.edge.driver", readProperty("pathToEdgeDriver"));

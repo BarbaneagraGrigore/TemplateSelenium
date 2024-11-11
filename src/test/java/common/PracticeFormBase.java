@@ -13,14 +13,14 @@ public class PracticeFormBase extends WebDriverUtils {
     protected PracticeFormPage practiceFormPage;
 
     protected PracticeFormBase() {
-        this.practiceFormPage = PageFactory.initElements(getWebDriver(), PracticeFormPage.class);
+        this.practiceFormPage = PageFactory.initElements(webDriver, PracticeFormPage.class);
     }
 
     protected void clickElement(WebElement element) {
-        ((JavascriptExecutor) getWebDriver()).executeScript("arguments[0].click();", element);
+        ((JavascriptExecutor) webDriver).executeScript("arguments[0].click();", element);
     }
 
     protected void loadURL() {
-        getWebDriver().get(readProperty("url"));
+        webDriver.get(readProperty("url"));
     }
 }

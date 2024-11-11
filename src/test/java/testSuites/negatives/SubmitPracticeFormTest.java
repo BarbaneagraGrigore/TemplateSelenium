@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class PracticeFormTest extends PracticeFormBase {
+class SubmitPracticeFormTest extends PracticeFormBase {
 
     @BeforeEach
     void navigateToURL() {
