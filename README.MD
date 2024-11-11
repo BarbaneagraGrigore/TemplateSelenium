@@ -15,9 +15,8 @@ This project is designed for Selenium automation testing.
 1. Build project:
    ```bash
    mvn clean install -DskipTests
-
-2. Create report:
+2. Configuration src/test/resources/configurations.properties
+3. Create report:
    ```bash
    mvn surefire-report:report
-   
-3. See report target/reports/surefire.html
+4. See report target/reports/surefire.html
